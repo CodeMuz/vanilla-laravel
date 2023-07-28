@@ -7,5 +7,5 @@
 
 echo "Replacing Nginx config."
 
-cp hooks/default-dev /etc/nginx/sites-enabled/default
+cp hooks/default /etc/nginx/sites-enabled/default
 service nginx restart
